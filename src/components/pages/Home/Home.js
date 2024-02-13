@@ -2,7 +2,7 @@ import { useSelector } from 'react-redux';
 import { getAllPosts } from '../../../Redux/postsReducer.js';
 import { Container } from 'react-bootstrap';
 
-import Post from '../Post/Post.js';
+import Post from '../../features/Post/Post.js';
 
 const Home = () => {
     const posts = useSelector(getAllPosts)

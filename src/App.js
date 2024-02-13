@@ -6,7 +6,7 @@ import Footer from './components/views/Footer/Footer.js';
 import Home from './components/pages/Home/Home.js';
 import NotFound from './components/pages/NotFound/NotFound.js';
 import About from './components/pages/About/About.js';
-import Post from './components/pages/Post/Post.js';
+import DisplayPost from './components/pages/DisplayPost/DisplayPost.js';
 import EditPost from './components/pages/EditPost/EditPost.js';
 import AddPost from './components/pages/AddPost/AddPost.js';
 
@@ -18,7 +18,7 @@ function App() {
       <Header />
       <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/post/:id" element={<Post />} />
+          <Route path="/post/:id" element={<DisplayPost />} />
           <Route path="/post/add" element={<AddPost />} />
           <Route path="/post/edit/:id" element={<EditPost />} />
           <Route path="/about" element={<About />} />
