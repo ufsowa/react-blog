@@ -11,7 +11,7 @@ const Home = () => {
         <>
             <div className="d-flex justify-content-between mb-5">
                 <h1>All posts</h1>
-                <Link to={"/post/add/"} className="col-3 text-center">
+                <Link to={"/post/add/"} className="col-4 col-md-2 text-center">
                     <Button className="my-2 w-100" variant="btn btn-outline-primary">Add post</Button>
                 </Link>
             </div>
